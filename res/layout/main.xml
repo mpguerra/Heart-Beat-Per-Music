@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView android:hint="000" 
+	    android:id="@+id/txtHeartRate"
+		android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		android:layout_below="@+id/btnChangeDevice"
+		android:layout_alignLeft="@+id/spnrDevices" 
+		android:gravity="center_horizontal" 
+		android:textSize="36pt" 
+		android:textStyle="bold" />
+
+    
+	<ImageView 
+    	android:id="@+id/heart"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"    	
+    	android:src="@drawable/heart" />
+	
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <string name="hello">Hello World, HeartBeatPerMusicActivity!</string> -->
+    <string name="app_name">Heart Beat Per Music</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+	<string name="connect_bt">Connect to Bluetooth</string>
+</resources>
